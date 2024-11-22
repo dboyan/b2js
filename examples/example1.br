@@ -1,0 +1,15 @@
+func f(x) {
+  print("f is running");
+  var y;
+  y = 2 * x;
+  return y;
+}
+
+func main() {
+  var result;
+  result = f(3) + 10;
+  print("done with call!");
+  print(result);
+  print("about to print again");
+  print(result);
+}
